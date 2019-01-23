@@ -59,9 +59,10 @@
     background-color: #ca0a04;
     height: 100vh;
     text-align: center;
+    padding: 100px;
 }
 
 .googleBox {
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
