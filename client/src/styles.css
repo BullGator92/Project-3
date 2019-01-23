@@ -54,3 +54,14 @@
     text-align: center;
     height: 250px;
 }
+
+.landing {
+    background-color: #ca0a04;
+    height: 100vh;
+    text-align: center;
+}
+
+.googleBox {
+    width: 200px;
+    margin: auto;
+}

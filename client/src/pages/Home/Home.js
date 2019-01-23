@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../../utils/API";
+// import API from "../../utils/API";
 // import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid"
 import Profile from '../../components/Profile/Profile'
@@ -17,17 +17,17 @@ class Books extends Component {
     synopsis: ""
   };
 
-  componentDidMount() {
-    this.loadBooks();
-  }
+  // componentDidMount() {
+  //   this.loadBooks();
+  // }
 
-  loadBooks = () => {
-    API.getBooks()
-      .then(res =>
-        this.setState({ books: res.data, title: "", author: "", synopsis: "" })
-      )
-      .catch(err => console.log(err));
-  };
+  // loadBooks = () => {
+  //   API.getBooks()
+  //     .then(res =>
+  //       this.setState({ books: res.data, title: "", author: "", synopsis: "" })
+  //     )
+  //     .catch(err => console.log(err));
+  // };
 
   handleInputChange = event => {
     const { name, value } = event.target;
