@@ -4,13 +4,13 @@ import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import LandingPage from "./components/LandingPage";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
 import "./styles.css";
 
 const App = () => (
   <Router>
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/" component={Home} />
