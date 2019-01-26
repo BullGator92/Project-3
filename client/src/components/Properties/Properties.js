@@ -5,7 +5,7 @@ const Properties = () => (
     <div className="widget">
        <h6>Properties</h6>
     
-    <NudgeDB/>
+    <nudgeDB/>
     </div>
 );
 

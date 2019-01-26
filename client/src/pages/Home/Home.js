@@ -4,7 +4,7 @@ import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid"
 import Profile from '../../components/Profile/Profile'
 import Calendar from '../../components/Calendar/Calendar'
-import Properites from '../../components/Properties/Properties'
+import Properties from '../../components/Properties/Properties'
 import Articles from '../../components/Articles/Articles'
 import UpcomingEvents from '../../components/UpcomingEvents/UpcomingEvents'
 
