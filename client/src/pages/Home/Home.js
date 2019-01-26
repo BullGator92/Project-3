@@ -4,9 +4,10 @@ import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid"
 import Profile from '../../components/Profile/Profile'
 import Calendar from '../../components/Calendar/Calendar'
-import Properites from '../../components/Properties/Properties'
-import Articles from '../../components/Articles/Articles'
-import UpcomingEvents from '../../components/UpcomingEvents/UpcomingEvents'
+import Text from "../../components/Text/Text"
+// import Properites from '../../components/Properties/Properties'
+// import Articles from '../../components/Articles/Articles'
+// import UpcomingEvents from '../../components/UpcomingEvents/UpcomingEvents'
 
 
 class Books extends Component {
@@ -42,12 +43,13 @@ class Books extends Component {
         <Row>
           <Col size="md-6">
             <Profile/>
-            <Properites/>
-            <Articles/>
+            {/* <Properites/>
+            <Articles/> */}
           </Col>
           <Col size="md-6">
+            <Text/>
             <Calendar/>
-            <UpcomingEvents/>
+            {/* <UpcomingEvents/> */}
           </Col>
         </Row>
       </Container>
