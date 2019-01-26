@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Google from './Signin/Google'
+import Google from './Signin/Google';
+// import RegistrationWizard from './RegistrationWizard/RegistrationWizard';
 
 class MainBody extends Component {
     state ={};

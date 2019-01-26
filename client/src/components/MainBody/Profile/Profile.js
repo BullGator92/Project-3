@@ -3,11 +3,13 @@ import React from "react";
 const Profile = () => (
     <div className="widget">
         <form onSubmit={this.handleSubmit}>
-            <label>What is your partner name?</label>
-            <input type="text" onChange={this.handleChange}/>
-            <label>What is your partner phone number</label>
-            <input type="text" onChange={this.handleChange}/>
-            <button>Submit</button>
+            <ul>
+                <li> <label>What is your partner's name?</label>
+                    <input type="text" onChange={this.handleChange} /> </li>
+                <li><label>What is your partner's phone number</label>
+                    <input type="text" onChange={this.handleChange} /></li>
+                <button>Submit</button>
+            </ul>
         </form>
     </div>
 );

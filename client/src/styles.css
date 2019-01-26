@@ -71,3 +71,14 @@
     display: flex;
     float: none;
 }
+
+.landing {
+    background-color: #ca0a04;
+    height: 100vh;
+    text-align: center;
+    padding: 100px;
+}
+
+ul {
+    list-style-type: none;
+}

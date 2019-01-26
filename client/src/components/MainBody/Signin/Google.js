@@ -1,7 +1,7 @@
 import React from "react";
 
 const Google = () => (
-    <div>
+    <div className="landing">
         <div className="row header-title">
             <div className="col-md-12">
                 <h1>Perfect Partner</h1>
@@ -11,9 +11,6 @@ const Google = () => (
         <div className="row">
             <div className='col-md-6'>
                 <div id="my-signin2" className="header-title"></div>
-            </div>
-            <div className='col-md-6'>
-                form
             </div>
         </div>
     </div>
