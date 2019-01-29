@@ -53,7 +53,10 @@ class Modal extends Component {
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div className="modal-body">{this.props.question}</div>
+              <div className="modal-body">
+                {this.props.question}
+                <input type="text" />
+              </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-primary">
                   Submit
@@ -62,8 +65,8 @@ class Modal extends Component {
                   <button
                     type="button"
                     className="btn btn-secondary"
-                    // data-dismiss="modal"
-                    // onClick={this.hideModal()}
+                  // data-dismiss="modal"
+                  // onClick={this.hideModal()}
                   >
                     Next Question
                   </button>
