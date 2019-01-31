@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from '../Modal';
+import Checks from '../Checks';
 import API from '../../../utils/API';
 
 class Nudges extends Component {
@@ -26,7 +26,7 @@ class Nudges extends Component {
 
   render() {
     return (
-      <Modal
+      <Checks
         question={this.state.question}
         userField={this.state.userField}
         link={this.state.nextQuestionLink}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 const $ = window.$;
 
-class Modal extends Component {
+class Checks extends Component {
   componentDidMount() {
     this.showModal();
   }
@@ -53,8 +53,7 @@ class Modal extends Component {
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div className="modal-body">{this.props.question} <input type="text"/></div>
-              
+              <div className="modal-body">{this.props.question}</div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-primary">
                   Submit
@@ -66,7 +65,7 @@ class Modal extends Component {
                     // data-dismiss="modal"
                     // onClick={this.hideModal()}
                   >
-                    Next Question
+                  Return
                   </button>
                 </Link>
               </div>
@@ -78,4 +77,4 @@ class Modal extends Component {
   }
 }
 
-export default Modal;
+export default Checks;
