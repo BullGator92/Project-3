@@ -26,11 +26,9 @@ class Anniversary extends Component {
   handleFormSubmit = event => {
     event.preventDefault();
     alert(`userField: ${this.state.userField}`);
-    API.updateUser(
-      /*id here*/ {
-        anniversaryDate: this.state.userField
-      }
-    );
+    API.updateUser(this.state.User._id, {
+      anniversaryDate: this.state.userField
+    });
   };
 
   handleInputChange = event => {
